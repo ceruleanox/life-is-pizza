@@ -5,8 +5,12 @@ import About from './components/Pages/About';
 import Shop from './components/Pages/Shop';
 
 import Header from './components/Layout/Header';
+
+import Footer from './components/Layout/Footer';
+
 import Cart from './components/Cart/Cart';
 import CartProvider from './store/CartProvider';
+
 
 import './App.css';
 
@@ -30,7 +34,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/shop" element={<Shop />} />
       </Routes>
+      <Footer />
     </CartProvider>
+
   );
 }
 
