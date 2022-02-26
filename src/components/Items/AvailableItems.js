@@ -52,7 +52,8 @@ const PIZZA_ITEMS = [
 const AvailableItems = () => {
     const itemsList = PIZZA_ITEMS.map((item) => ( 
         <PizzaItem 
-            key={item.id} 
+            key={item.id}
+            id={item.id} 
             name={item.name} 
             restaurant={item.restaurant} 
             description={item.description} 
