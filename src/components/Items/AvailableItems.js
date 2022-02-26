@@ -46,7 +46,27 @@ const PIZZA_ITEMS = [
         description: 'nom nom!',
         price: 22.99,
     },
-    
+    {
+        id: 'id7',
+        name: 'Pizza7',
+        restaurant: 'restaurant7 **SALE**',
+        description: 'nom nom!',
+        price: .99,
+    },
+    {
+        id: 'id8',
+        name: 'Pizza8',
+        restaurant: 'restaurant8 **SALE**',
+        description: 'nom nom!',
+        price: 1.99,
+    },
+    {
+        id: 'id9',
+        name: 'Pizza9',
+        restaurant: 'restaurant9 **SALE**',
+        description: 'nom nom!',
+        price: 1.50,
+    },
 ]
 
 const AvailableItems = () => {
