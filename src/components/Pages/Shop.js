@@ -3,7 +3,7 @@ import { React } from 'react';
 import heroImage from "../../assets/pizza_main.jpg";
 
 import classes from './Shop.module.css';
-
+import Items from '../../components/Items/Items';
 
 function Shop() {
     return (
@@ -13,7 +13,9 @@ function Shop() {
                     <img src={heroImage} alt="closeup of a mouth-watering multi-topping pizza"/>
                 </div>
                 <div className={classes['shop-content']}>
-                    This is the Shop component (src/pages/shop)
+                          <main>
+                            <Items />
+                        </main>
                 </div>
             </div>
         </>
