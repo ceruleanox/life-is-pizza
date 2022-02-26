@@ -1,23 +1,32 @@
-import { React } from 'react';
+import { React } from "react";
+import { Link } from "react-router-dom";
 import Map from '../Layout/Map'
-
-import classes from './Home.module.css';
+import classes from "./Home.module.css";
 
 function Home() {
-    return (
-        <>
-            <div className={classes['content']}>
-                <div className={classes['home-content']}>
-                    This is the Home component (src/pages/home)
-                    <div className='mission-statement'>
-                        <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."                        </p>
-                        <Map />
-                    </div>
-                </div>
-            </div>
-        </>
-    );
+  return (
+    <>
+      <div className={classes["content"]}>
+        <div className={classes["home-content"]}>
+          <h1>Giving New Life to Chicago Restaurants.</h1>
+          <p>
+            It’s no secret that the pandemic has taken a toll on the restaurant
+            industry. As of late 2021, nearly 19% of Chicago restaurants had
+            closed since the start of the pandemic. Life is Pizza aims to
+            alleviate some of the financial stressors Chicago pizza restaurants
+            are facing by providing them a platform to share their story & sell
+            program-exclusive pizzas. If you are interested in supporting local
+            businesses and eating delicious pizza while you’re at it, look no
+            further!
+          </p>
+          <Link to="/Shop">
+            <button>ORDER NOW</button>
+          </Link>
+          <Map />
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default Home;
