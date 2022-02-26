@@ -1,0 +1,59 @@
+.button {
+    border: none;
+    background-color: #660000;
+    color: #FFFFFF;
+    padding: 0.75rem 3rem;
+    display: flex;
+    margin-right: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold; 
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background-color: #330000;
+}
+
+.icon {
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 0.5rem;
+}
+
+.cartQty {
+    background-color: #CC3300;
+    padding: 0.25rem 1rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.button:hover .cartQty,
+.button:active .cartQty {
+    background-color: #993300;
+}
+
+.bump {
+    animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(0.9);
+    }
+    30% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
