@@ -1,6 +1,7 @@
 import { React, Fragment } from 'react';
 import { NavLink, BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
+import HeaderCartButton from './HeaderCartButton';
 import classes from './Header.module.css';
 
 const Header = props => {
@@ -13,7 +14,7 @@ const Header = props => {
                     <NavLink className="link" to="/about">About</NavLink> 
                     <NavLink className="link" to="/shop">Shop</NavLink> 
                 </div>                
-                <button>Cart</button>
+                <HeaderCartButton />
             </header>
         </>
     );
