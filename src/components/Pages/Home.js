@@ -1,5 +1,6 @@
 import { React } from "react";
 import { Link } from "react-router-dom";
+import Map from '../Layout/Map'
 import classes from "./Home.module.css";
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
           <Link to="/Shop">
             <button>ORDER NOW</button>
           </Link>
+          <Map />
         </div>
       </div>
     </>
