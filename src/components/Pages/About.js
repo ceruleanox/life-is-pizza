@@ -1,5 +1,6 @@
 import { React } from "react";
 
+import Map from '../Layout/Map'
 import classes from "./About.module.css";
 
 function About() {
@@ -43,6 +44,7 @@ function About() {
             supporting local pizza restaurants, cornerstones of their
             communities.
           </p>
+          <Map />
         </div>
       </div>
     </>
