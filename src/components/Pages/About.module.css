@@ -3,6 +3,10 @@ html,body {
     padding:0;
 }
 
+.images {
+    margin: auto;
+}
+
 .imageContainer {
     width: 100%;
     
@@ -46,7 +50,7 @@ img{
 }
 
 p {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
 }
 
 p:nth-of-type(1) {
