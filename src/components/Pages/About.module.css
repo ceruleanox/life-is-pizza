@@ -1,7 +1,26 @@
 .content {
-    margin-top: 3.8rem; /* see header.module.css -> 3.8rem */
+  margin-top: 3.8rem; /* see header.module.css -> 3.8rem */
+  display: flex;
+  flex-direction: row;
 }
 
 .about-content {
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.pizza-pic {
+  display: flex;
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+
+.chicago-pizza {
+  width: 30%;
+  height: auto;
+  margin: auto;
 }
