@@ -26,6 +26,7 @@ function App() {
   }
 
   return (
+    
     <div>
     <div className="content1">
     <CartProvider>
@@ -40,8 +41,10 @@ function App() {
     </CartProvider>
     
     </div>
-    
+    <Footer />
     </div>
+    
+    
   );
 }
 

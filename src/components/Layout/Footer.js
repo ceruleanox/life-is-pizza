@@ -12,7 +12,7 @@ function Footer() {
                 <FaTwitter />
                 <FaFacebookF />
             </div>
-            <p>&copy; 2022 lifeispizza.com</p>
+            
         </div>
     )
 }
