@@ -3,13 +3,20 @@ import Modal from 'react-modal';
 
 import Map from '../Layout/Map'
 import classes from "./About.module.css";
+import logo from "../../assets/Chicago-pizza.png";
+import img from "../../assets/pizza-pic.png";
 
 function About() {
   return (
     <>
       <div className={classes["content"]}>
-        <Map />
+        <img
+          className={classes["pizza-pic"]}
+          src={img}
+          alt="photo of deep dish pizza"
+        />
         <div className={classes["about-content"]}>
+          <img className={classes["chicago-pizza"]} src={logo} alt="Logo art" />
           <p>
             Chicago has quite a prolific history when it comes to pizza.
             Originally brought to Chicago by Neapolitan immigrants,
@@ -47,6 +54,7 @@ function About() {
             communities.
           </p>
         </div>
+        <Map />
       </div>
     </>
   );
