@@ -1,5 +1,6 @@
 .content {
   margin-top: 3.8rem; /* see header.module.css -> 3.8rem */
+  height: 100vh;
 }
 
 .home-content {
