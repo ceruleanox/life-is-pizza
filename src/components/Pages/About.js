@@ -54,8 +54,8 @@ function About() {
             communities.
           </p>
         </div>
-        <Map />
       </div>
+      <Map />
     </>
   );
 }
