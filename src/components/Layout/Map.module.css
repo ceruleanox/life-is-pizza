@@ -1,11 +1,11 @@
 .map {
-    height: 1500px;
+    height: 600px;
     background-repeat: no-repeat;
     background-image: url('../../assets/chicago-map.jpg');
     z-index: -1;
     position: relative;
-    width: 50%;
-    margin: auto;
+    width: 45%;
+    float: left;
 }
 
 .pizza {
@@ -34,8 +34,4 @@
     left: 10%;
     top: 300px;
     z-index: 0;
-}
-
-.centerMap {
-    z-index: -1;
 }
