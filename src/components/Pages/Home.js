@@ -32,7 +32,7 @@ function Home() {
             </span>
           </p>
           <Link to="/Shop">
-            <button>ORDER NOW</button>
+            <button className={classes["order-button"]}>ORDER NOW</button>
           </Link>
         </div>
       </div>
