@@ -1,7 +1,55 @@
 .content {
-    margin-top: 3.8rem; /* see header.module.css -> 3.8rem */
+  margin-top: 3.8rem; /* see header.module.css -> 3.8rem */
 }
 
 .home-content {
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  background-color: #cc3300;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+.chicago-skyline {
+  opacity: 90%;
+  width: 100vw;
+  height: auto;
+  border: 0;
+}
+
+.chicago-pizza {
+  position: absolute;
+  top: 10%;
+  left: 34%;
+  width: 30%;
+  height: auto;
+  margin: auto;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+span {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.life-span {
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+}
+
+i {
+  text-decoration: underline;
 }
