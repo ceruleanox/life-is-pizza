@@ -53,3 +53,22 @@ span {
 i {
   text-decoration: underline;
 }
+
+.order-button {
+  display: block;
+  margin: auto;
+  width: 8.5rem;
+  height: 4.5rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: rgb(241, 255, 47);
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.order-button:hover {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
