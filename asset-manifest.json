@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/life-is-pizza/static/css/main.7f92a22a.css",
+    "main.js": "/life-is-pizza/static/js/main.de3ff7d2.js",
+    "static/media/pizza-pic.png": "/life-is-pizza/static/media/pizza-pic.10e42c61fc70a3866966.png",
+    "static/media/chicago-skyline-crop.png": "/life-is-pizza/static/media/chicago-skyline-crop.e801ebf75cd25ca39a66.png",
+    "static/media/Chicago-pizza.png": "/life-is-pizza/static/media/Chicago-pizza.b80d3c5702aced808d04.png",
+    "static/media/pizza_main.jpg": "/life-is-pizza/static/media/pizza_main.da51c84f27282bab23dc.jpg",
+    "static/media/pizzaplace.jpg": "/life-is-pizza/static/media/pizzaplace.41998220721d3734ca52.jpg",
+    "static/media/pizzaplace3.jpg": "/life-is-pizza/static/media/pizzaplace3.40d273dae86875abd798.jpg",
+    "static/media/pizzaplace2.jpg": "/life-is-pizza/static/media/pizzaplace2.2b0879b82f53214e4f5c.jpg",
+    "static/media/pizzaria.png": "/life-is-pizza/static/media/pizzaria.addbac9d6ecf2bfac673.png",
+    "static/media/chicago-map.jpg": "/life-is-pizza/static/media/chicago-map.6f75fe3187e489a79bcf.jpg",
+    "index.html": "/life-is-pizza/index.html",
+    "main.7f92a22a.css.map": "/life-is-pizza/static/css/main.7f92a22a.css.map",
+    "main.de3ff7d2.js.map": "/life-is-pizza/static/js/main.de3ff7d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f92a22a.css",
+    "static/js/main.de3ff7d2.js"
+  ]
+}
