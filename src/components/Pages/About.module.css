@@ -1,7 +1,13 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
 .content {
     margin-top: 3.8rem; /* see header.module.css -> 3.8rem */
 }
 
 .about-content {
-    
+    width: 55%;
+    float: right;
 }

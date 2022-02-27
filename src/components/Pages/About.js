@@ -1,11 +1,14 @@
-import { React } from "react";
+import { React, useState } from "react";
+import Modal from 'react-modal';
 
+import Map from '../Layout/Map'
 import classes from "./About.module.css";
 
 function About() {
   return (
     <>
       <div className={classes["content"]}>
+        <Map />
         <div className={classes["about-content"]}>
           <p>
             Chicago has quite a prolific history when it comes to pizza.
