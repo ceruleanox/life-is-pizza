@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/life-is-pizza/static/css/main.134f0b4c.css",
-    "main.js": "/life-is-pizza/static/js/main.d424a9eb.js",
+    "main.js": "/life-is-pizza/static/js/main.137818b1.js",
     "static/media/pizza-pic.png": "/life-is-pizza/static/media/pizza-pic.10e42c61fc70a3866966.png",
     "static/media/chicago-skyline-crop.png": "/life-is-pizza/static/media/chicago-skyline-crop.e801ebf75cd25ca39a66.png",
     "static/media/Chicago-pizza.png": "/life-is-pizza/static/media/Chicago-pizza.b80d3c5702aced808d04.png",
@@ -16,10 +16,10 @@
     "static/media/chicago-map.jpg": "/life-is-pizza/static/media/chicago-map.6f75fe3187e489a79bcf.jpg",
     "index.html": "/life-is-pizza/index.html",
     "main.134f0b4c.css.map": "/life-is-pizza/static/css/main.134f0b4c.css.map",
-    "main.d424a9eb.js.map": "/life-is-pizza/static/js/main.d424a9eb.js.map"
+    "main.137818b1.js.map": "/life-is-pizza/static/js/main.137818b1.js.map"
   },
   "entrypoints": [
     "static/css/main.134f0b4c.css",
-    "static/js/main.d424a9eb.js"
+    "static/js/main.137818b1.js"
   ]
 }
