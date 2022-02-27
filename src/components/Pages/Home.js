@@ -17,7 +17,7 @@ function Home() {
         />
         <div className={classes["home-content"]}>
           <img className={classes["chicago-pizza"]} src={logo} alt="Logo art" />
-          <p>
+          <p className={classes["home-p"]}>
             <span className={classes["life-span"]}>
               <i>Life is Pizza</i> aims to alleviate some of the financial
               stressors Chicago pizza restaurants are facing by providing them a

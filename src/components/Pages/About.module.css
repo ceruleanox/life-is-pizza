@@ -9,16 +9,14 @@ html,body {
     text-align: center;
     margin-bottom: 50px;
 }
-img{
-  
-}
+
 .content {
   margin-top: 3.8rem; /* see header.module.css -> 3.8rem */
   display: flex;
   flex-direction: row;
   position: relative;
   margin: auto;
-  max-width: 1400px;
+  max-width: 1200px;
   min-width: 1100px;
 }
 
@@ -28,6 +26,7 @@ img{
   position: absolute;
   left: 50%;
   width: 50%;
+  margin-right: 100px;
 }
 
 .pizza-pic {
