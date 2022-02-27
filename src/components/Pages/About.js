@@ -1,5 +1,7 @@
-import { React } from "react";
+import { React, useState } from "react";
+import Modal from 'react-modal';
 
+import Map from '../Layout/Map'
 import classes from "./About.module.css";
 import logo from "../../assets/Chicago-pizza.png";
 import img from "../../assets/pizza-pic.png";
@@ -39,7 +41,20 @@ function About() {
             top. In addition, Chicago has its own style of pan pizza and
             thin-crust pizza.{" "}
           </p>
+          <p>
+            Pizza is perfect comfort food in times of uncertainty. While
+            national chains like Domino's and Papa John's saw profits
+            skyrocketing during the pandemic despite underperforming for many
+            years prior, modest neighborhood establishments and family favorites
+            with decades of history fought to survive. The public health crisis
+            is a reminder that restaurants serve as community beacons, serving
+            their neighborhood and not giving up. This is especially true of
+            Chicago's pizza places, who inspired us to create a platform for
+            supporting local pizza restaurants, cornerstones of their
+            communities.
+          </p>
         </div>
+        <Map />
       </div>
     </>
   );

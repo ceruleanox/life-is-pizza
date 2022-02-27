@@ -1,4 +1,5 @@
 import { React } from "react";
+import { Link } from "react-router-dom";
 
 import classes from "./Home.module.css";
 
@@ -30,7 +31,9 @@ function Home() {
               pizza while you’re at it, look no further!
             </span>
           </p>
-          {/* PUT A CALL TO ACTION BUTTON HERE OR SOMETHING */}
+          <Link to="/Shop">
+            <button>ORDER NOW</button>
+          </Link>
         </div>
       </div>
     </>

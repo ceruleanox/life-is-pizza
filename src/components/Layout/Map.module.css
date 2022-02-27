@@ -1,0 +1,37 @@
+.map {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/chicago-map.jpg');
+    z-index: -1;
+    position: relative;
+    width: 45%;
+    float: left;
+}
+
+.pizza {
+    height: 100px;
+}
+
+.paulie, .spacca, .vito {
+    display: block;
+    position: absolute;
+    width: 100px;
+}
+
+.paulie {
+    left: 33%;
+    top: 300px;
+    z-index: 0;
+}
+
+.spacca {
+    left: 25%;
+    top: 300px;
+    z-index: 0;
+}
+
+.vito {
+    left: 10%;
+    top: 300px;
+    z-index: 0;
+}

@@ -5,8 +5,12 @@ import About from './components/Pages/About';
 import Shop from './components/Pages/Shop';
 
 import Header from './components/Layout/Header';
+
+import Footer from './components/Layout/Footer';
+
 import Cart from './components/Cart/Cart';
 import CartProvider from './store/CartProvider';
+
 
 import './App.css';
 
@@ -22,6 +26,8 @@ function App() {
   }
 
   return (
+    <div>
+    <div className="content1">
     <CartProvider>
       {cartIsShown && <Cart onClose={hideCartHandler} />}
       <Header onShowCart={showCartHandler} />
@@ -30,7 +36,12 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/shop" element={<Shop />} />
       </Routes>
+      
     </CartProvider>
+    
+    </div>
+    
+    </div>
   );
 }
 
