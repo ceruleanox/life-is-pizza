@@ -77,10 +77,16 @@ const AvailableItems = () => {
 
     const [items, setItems] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
+    const [httpError, setHttpError] = useState();
 
     useEffect(() => {
         const fetchItems = async() => {
             const response = await fetch('https://life-is-pizza-default-rtdb.firebaseio.com/items.json');
+            
+            if (!response.ok) {
+                throw new Error('Something went wrong!');
+            }
+
             const responseData = await response.json();
 
             const loadedItems = [];
@@ -97,13 +103,26 @@ const AvailableItems = () => {
             setItems(loadedItems);
             setIsLoading(false);
         };
-        fetchItems();
+
+        fetchItems().catch(error => {
+            setIsLoading(false);
+            setHttpError(error.message);
+        });
+
     }, []);
     
     if (isLoading) {
         return (
             <section className={classes.ItemsLoading}>
                 <p>Loading...</p>
+            </section>
+        );
+    }
+
+    if (httpError) {
+        return (
+            <section className={classes.ItemsError}>
+                <p>{httpError}</p>
             </section>
         );
     }

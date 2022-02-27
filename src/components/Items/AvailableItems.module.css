@@ -25,7 +25,12 @@
 
 }
 
-.itemsLoading {
+.ItemsLoading {
     text-align: center;
     color: #FFCC00;;
+}
+
+.ItemsError {
+    text-align: center;
+    color: #FF0000;;
 }
