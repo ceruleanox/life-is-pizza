@@ -30,11 +30,12 @@
   margin: auto;
 }
 
-p {
+.home-p {
   font-size: 1.5rem;
   margin: auto;
   margin-top: 2rem;
   text-align: center;
+  color: white;
 }
 
 span {
