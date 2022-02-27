@@ -3,6 +3,9 @@ import Modal from 'react-modal';
 
 import classes from './Map.module.css';
 import pizza from '../../assets/pizzaria.png';
+import bebu from '../../assets/pizzaplace.jpg'
+import paulie from '../../assets/pizzaplace2.jpg'
+import coalfire from '../../assets/pizzaplace3.jpg'
 
 const modalStyling = {
     zIndex: 10
@@ -27,9 +30,9 @@ function Map() {
     return (
         <>
             <div className={classes.map}>
-                <div className={classes.paulie} onMouseOver={() => setState(true)} onMouseOut={() => setState(false)} onClick={() => setIsOpen(true)}>
+                <div className={classes.bebu} onMouseOver={() => setState(true)} onMouseOut={() => setState(false)} onClick={() => setIsOpen(true)}>
                     <img className={classes.pizza} src={pizza}></img>
-                    {hover ? (<img className={classes.pizza} src={pizza} />) : null}
+                    {hover ? (<img className={classes.popUp} src={bebu} />) : null}
                 </div>
                 <Modal
                     isOpen={modalIsOpen}
@@ -43,9 +46,9 @@ function Map() {
                     <div>Husband and wife duo Zach and Rachel Smith have created a pizzeria that feels like home. Unfortunately, due to the pandemic, they had to make the difficult choice to close their restaurant temporarily. A small family business, Pizzeria Bebu is looking to support their team during this challenging time. </div>
                 </Modal>
 
-                <div className={classes.spacca} onMouseOver={() => setState2(true)} onMouseOut={() => setState2(false)} onClick={() => setIsOpen2(true)}>
+                <div className={classes.paulie} onMouseOver={() => setState2(true)} onMouseOut={() => setState2(false)} onClick={() => setIsOpen2(true)}>
                     <img className={classes.pizza} src={pizza}></img>
-                    {hover2 ? (<img className={classes.pizza} src={pizza} />) : null}
+                    {hover2 ? (<img className={classes.popUp} src={paulie} />) : null}
                 </div>
                 <Modal
                     isOpen={modalIsOpen2}
@@ -58,9 +61,9 @@ function Map() {
                     <div>Paulie Gee’s has locations from New York City to New Orleans, but this family-owned location has had its ups and downs since the start of the pandemic. Regardless, they have continued to support their staff & friends by hosting weekly artisan markets, raised money for select charities, and kept their staff safe by modifying their service during the most grueling parts of the pandemic. </div>
                 </Modal>
 
-                <div className={classes.vito} onMouseOver={() => setState3(true)} onMouseOut={() => setState3(false)} onClick={() => setIsOpen3(true)}>
+                <div className={classes.coalfire} onMouseOver={() => setState3(true)} onMouseOut={() => setState3(false)} onClick={() => setIsOpen3(true)}>
                     <img className={classes.pizza} src={pizza}></img>
-                    {hover3 ? (<img className={classes.pizza} src={pizza} />) : null}
+                    {hover3 ? (<img className={classes.popUp} src={coalfire} />) : null}
                 </div>
                 <Modal
                     isOpen={modalIsOpen3}

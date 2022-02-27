@@ -3,33 +3,42 @@
     background-repeat: no-repeat;
     background-image: url('../../assets/chicago-map.jpg');
     z-index: -1;
-    position: relative;
     width: 45%;
+    position: absolute;
 }
 
 .pizza {
     height: 100px;
 }
 
-.paulie, .spacca, .vito {
+.pizza:hover {
+    cursor: pointer;
+}
+
+.popUp {
+    border: white solid 20px;
+    width: 200px;
+}
+
+.bebu, .paulie, .coalfire {
     display: block;
     position: absolute;
     width: 100px;
 }
 
-.paulie {
+.bebu {
     left: 33%;
     top: 300px;
     z-index: 0;
 }
 
-.spacca {
+.paulie {
     left: 25%;
     top: 300px;
     z-index: 0;
 }
 
-.vito {
+.coalfire {
     left: 10%;
     top: 300px;
     z-index: 0;
