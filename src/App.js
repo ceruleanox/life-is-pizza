@@ -1,5 +1,5 @@
 import { React, Fragment, useState } from 'react';
-import { NavLink, BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { NavLink, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Shop from './components/Pages/Shop';
@@ -26,25 +26,25 @@ function App() {
   }
 
   return (
-    
+
     <div>
-    <div className="content1">
-    <CartProvider>
-      {cartIsShown && <Cart onClose={hideCartHandler} />}
-      <Header onShowCart={showCartHandler} />
-      <Routes>
-        <Route path="/" element={<Home />} /> 
-        <Route path="/about" element={<About />} />
-        <Route path="/shop" element={<Shop />} />
-      </Routes>
-      
-    </CartProvider>
-    
+      <div className="content1">
+        <CartProvider>
+          {cartIsShown && <Cart onClose={hideCartHandler} />}
+          <Header onShowCart={showCartHandler} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/shop" element={<Shop />} />
+          </Routes>
+
+        </CartProvider>
+
+      </div>
+      <Footer />
     </div>
-    <Footer />
-    </div>
-    
-    
+
+
   );
 }
 
