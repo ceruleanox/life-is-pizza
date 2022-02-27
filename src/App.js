@@ -26,6 +26,8 @@ function App() {
   }
 
   return (
+    <div>
+    <div className="content1">
     <CartProvider>
       {cartIsShown && <Cart onClose={hideCartHandler} />}
       <Header onShowCart={showCartHandler} />
@@ -34,9 +36,12 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/shop" element={<Shop />} />
       </Routes>
-      <Footer />
+      
     </CartProvider>
-
+    
+    </div>
+    
+    </div>
   );
 }
 
