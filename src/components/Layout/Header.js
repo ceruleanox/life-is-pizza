@@ -10,7 +10,7 @@ const Header = props => {
             <header className={classes.header}>
                 <h1>Life Is Pizza</h1>
                 <div className="navlink">
-                    <NavLink className="link" to="/">Home</NavLink> 
+                    <NavLink className="link" to="/life-is-pizza">Home</NavLink> 
                     <NavLink className="link" to="/about">About</NavLink> 
                     <NavLink className="link" to="/shop">Shop</NavLink> 
                 </div>                

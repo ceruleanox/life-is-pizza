@@ -33,7 +33,7 @@ function App() {
           {cartIsShown && <Cart onClose={hideCartHandler} />}
           <Header onShowCart={showCartHandler} />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/life-is-pizza" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/shop" element={<Shop />} />
           </Routes>
