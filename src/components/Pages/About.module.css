@@ -3,6 +3,10 @@ html,body {
     padding:0;
 }
 
+.images {
+    margin: auto;
+}
+
 .imageContainer {
     width: 100%;
     text-align: center;
